@@ -1,0 +1,7 @@
+{
+  "name": "JINSC 金欣全精密工業",
+  "description": "金欣全精密工業股份有限公司 (JINSC) 官方網站改版。展示專業 O型環、油封及各式密封件，提供時尚且高質感的工業級使用者體驗與 AI 技術顧問。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

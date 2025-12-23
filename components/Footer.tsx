@@ -21,21 +21,21 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">JIN</span>
+              <div className="w-10 h-10 bg-[#FFCC22] rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">JSC</span>
               </div>
               <div>
                 <span className="text-xl font-bold text-white tracking-tight">{COMPANY_NAME[lang]}</span>
-                <span className="text-[10px] block text-slate-500 font-medium uppercase">Jin Xin Quan Precision</span>
+                <span className="text-[10px] block text-slate-500 font-medium uppercase">JIN SHIN CHYUAN INDUSTRY CO., LTD</span>
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-6">
-              {lang === 'zh' 
-                ? '致力於提供最優質的精密加工解決方案。以誠信、品質與技術為核心，與客戶共創雙贏。' 
+              {lang === 'zh'
+                ? '致力於提供最優質的精密加工解決方案。以誠信、品質與技術為核心，與客戶共創雙贏。'
                 : 'Dedicated to providing top-tier precision processing solutions. Driven by integrity, quality, and technology.'}
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-white font-bold mb-6">{labels.footer_products}</h4>
             <ul className="space-y-4 text-sm">
@@ -78,7 +78,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
             </ul>
           </div>
         </div>
-        
+
         <div className="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
           <p>© 2024 {COMPANY_NAME[lang]} {labels.footer_copy}</p>
         </div>

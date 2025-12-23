@@ -1,8 +1,8 @@
 import { Product, NavItem } from './types';
 
 export const COMPANY_NAME = {
-  zh: "金欣全精密工業",
-  en: "JINSC Precision"
+  zh: "金欣全精密工業股份有限公司",
+  en: "JIN SHIN CHYUAN INDUSTRY CO., LTD"
 };
 
 export const COMPANY_FULL_NAME = {
@@ -20,13 +20,13 @@ export const CONTACT_INFO = {
 };
 
 export const NAV_LABELS: any = {
-  zh: { 
+  zh: {
     home: '首頁', company: '公司簡介', products: '產品介紹', download: '目錄下載', contact: '聯絡方式', lang: 'English',
     footer_products: '產品分類', footer_links: '快速連結', footer_contact: '聯絡資訊', footer_copy: '版權所有。',
     download_hint: '縮小圖可點擊放大觀看，或直接下載型錄圖片。',
     list_prefix: '產品如下：'
   },
-  en: { 
+  en: {
     home: 'Home', company: 'About', products: 'Products', download: 'Download', contact: 'Contact', lang: '繁體中文',
     footer_products: 'Categories', footer_links: 'Quick Links', footer_contact: 'Contact Info', footer_copy: 'All Rights Reserved.',
     download_hint: 'Click thumbnails to enlarge or download catalog images.',
@@ -112,47 +112,47 @@ export const DOWNLOAD_RESOURCES = [
 
 export const PRODUCT_CATEGORIES: any = {
   zh: [
-    { 
-      label: '五金零組件', 
-      path: '/products/hardware', 
-      id: 'hardware', 
+    {
+      label: '五金零組件',
+      path: '/products/hardware',
+      id: 'hardware',
       description: '本公司設有最新CNC走心式機台，可一次完成高度的前後混和加工，具有高生產力與低成本的績效品質，歡迎隨時詢問與估價。',
       items: ["銅製插端", "機械用元件", "特殊螺絲與螺母", "各種硬體元件", "需要特殊處理的元件", "五金製品-花底螺絲與螺母"],
       featuredImage: "https://duk.tw/v6HNxq.jpg"
     },
-    { 
-      label: '刮鬍刀', 
-      path: '/products/razors', 
-      id: 'razors', 
-      description: '所有產品皆可依照客人喜好更改與設計，材質都可依需求替換。請點擊圖面瞭解細部規格，歡迎詢問報價。' 
+    {
+      label: '刮鬍刀',
+      path: '/products/razors',
+      id: 'razors',
+      description: '所有產品皆可依照客人喜好更改與設計，材質都可依需求替換。請點擊圖面瞭解細部規格，歡迎詢問報價。'
     },
-    { 
-      label: '禮品', 
-      path: '/products/gifts', 
-      id: 'gifts', 
-      description: '所有產品皆可依照客人喜好更改與設計，材質都可依需求替換。' 
+    {
+      label: '禮品',
+      path: '/products/gifts',
+      id: 'gifts',
+      description: '所有產品皆可依照客人喜好更改與設計，材質都可依需求替換。'
     },
   ],
   en: [
-    { 
-      label: 'Hardware Parts', 
-      path: '/products/hardware', 
-      id: 'hardware', 
+    {
+      label: 'Hardware Parts',
+      path: '/products/hardware',
+      id: 'hardware',
       description: 'Equipped with latest CNC machines for high-efficiency front and back processing with cost-effective solutions.',
       items: ["Copper Terminals", "Mechanical Components", "Special Screws & Nuts", "Hardware Components", "Special Treatment Parts", "Flower Bottom Fasteners"],
       featuredImage: "https://duk.tw/v6HNxq.jpg"
     },
-    { 
-      label: 'Razors', 
-      path: '/products/razors', 
-      id: 'razors', 
-      description: 'Fully customizable designs and premium materials. Click on images for detailed specifications and quotes.' 
+    {
+      label: 'Razors',
+      path: '/products/razors',
+      id: 'razors',
+      description: 'Fully customizable designs and premium materials. Click on images for detailed specifications and quotes.'
     },
-    { 
-      label: 'Gifts', 
-      path: '/products/gifts', 
-      id: 'gifts', 
-      description: 'Premium metal gifts, stationery sets, and corporate gifts, all customizable.' 
+    {
+      label: 'Gifts',
+      path: '/products/gifts',
+      id: 'gifts',
+      description: 'Premium metal gifts, stationery sets, and corporate gifts, all customizable.'
     },
   ]
 };

@@ -200,13 +200,13 @@ export const MAIN_FEATURES: any = {
     { id: 'company', title: '公司簡介', subtitle: 'About Profile', path: '/company', description: '創立於西元1978年，具備專業的五金零組件與金屬代工能力。', image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800' },
     { id: 'products', title: '產品介紹', subtitle: 'Products', path: '/products', description: '提供刮鬍刀禮品組、筆座、筆組及精密電子五金零件。', image: 'https://duk.tw/iYtF4a.png' },
     { id: 'download', title: '目錄下載', subtitle: 'Download', path: '/download', description: '下載最新產品規格與代工製程能力手冊 PDF。', image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800' },
-    { id: 'contact', title: '聯絡方式', subtitle: 'Contact', path: '/contact', description: '歡迎來電或 E-mail 諮詢您的代工與採購需求處理處理。', image: '/assets/images/contact.png' }
+    { id: 'contact', title: '聯絡方式', subtitle: 'Contact', path: '/contact', description: '歡迎來電或 E-mail 諮詢您的代工與採購需求處理處理。', image: 'contact.png' }
   ],
   en: [
     { id: 'company', title: 'About JINSC', subtitle: 'Company Profile', path: '/company', description: 'Founded in 1978, specializing in precision hardware and metal OEM services.', image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800' },
     { id: 'products', title: 'Our Products', subtitle: 'Portfolio', path: '/products', description: 'High-quality razors, gift sets, and precision hardware parts.', image: 'https://duk.tw/iYtF4a.png' },
     { id: 'download', title: 'Download', subtitle: 'Catalog', path: '/download', description: 'Access our latest product catalogs and technical specifications.', image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800' },
-    { id: 'contact', title: 'Connect', subtitle: 'Contact Us', path: '/contact', description: 'Reach out for quotes, technical consultation, or partnership inquiries.', image: '/assets/images/contact.png' }
+    { id: 'contact', title: 'Connect', subtitle: 'Contact Us', path: '/contact', description: 'Reach out for quotes, technical consultation, or partnership inquiries.', image: 'contact.png' }
   ]
 };
 

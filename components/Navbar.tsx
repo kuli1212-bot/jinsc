@@ -40,13 +40,13 @@ const Navbar: React.FC<NavbarProps> = ({ lang, onToggleLang }) => {
       }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Link to="/" className="flex items-center space-x-4 group">
-            <div className="w-12 h-12 bg-brand-gold rounded-2xl flex items-center justify-center text-brand-dark font-black text-xl shadow-xl transform transition-transform group-hover:rotate-12 group-hover:scale-110">
+          <Link to="/" className="flex items-center space-x-4 group min-w-0 flex-1">
+            <div className="w-12 h-12 bg-brand-gold rounded-2xl flex items-center justify-center text-brand-dark font-black text-xl shadow-xl transform transition-transform group-hover:rotate-12 group-hover:scale-110 flex-shrink-0">
               JSC
             </div>
-            <div>
-              <span className="text-xl font-black tracking-tight block leading-none text-brand-gold whitespace-nowrap">{COMPANY_NAME[lang]}</span>
-              <span className={`text-[10px] font-bold uppercase tracking-widest mt-1 block transition-colors whitespace-nowrap ${scrolled ? 'text-slate-400' : 'text-white/60'}`}>JIN SHIN CHYUAN INDUSTRY CO., LTD</span>
+            <div className="min-w-0 flex-1">
+              <span className="text-lg md:text-xl font-black tracking-tight block leading-none text-brand-gold truncate">{COMPANY_NAME[lang]}</span>
+              <span className={`text-[10px] font-bold uppercase tracking-normal md:tracking-widest mt-1 block transition-colors truncate ${scrolled ? 'text-slate-400' : 'text-white/60'}`}>JIN SHIN CHYUAN INDUSTRY CO., LTD</span>
             </div>
           </Link>
 
